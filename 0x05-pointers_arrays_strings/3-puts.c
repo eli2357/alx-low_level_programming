@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * _puts - function that prints a dtring
+ * @str: string to be printed
+ * Return: void
  */
 
 void _puts(char *str)
