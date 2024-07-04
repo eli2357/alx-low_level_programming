@@ -2,7 +2,7 @@
 /**
  * _strncpy - copy
  * @dest: destinination
- * @src oursce
+ * @src: oursce
  * @n: number of byte
  * Return: dest
  */
