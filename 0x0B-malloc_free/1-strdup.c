@@ -8,10 +8,11 @@ char *_strdup(char *str)
 {
 	char *copy;
 	int count = 0;
+	int i;
 
 	if (str == NULL)
 		return (NULL);
-	for (i = 0; str[i] != '\0' i++)
+	for (i = 0; str[i] != '\0'; i++)
 		count++;
 
 
@@ -21,6 +22,6 @@ char *_strdup(char *str)
 		return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
 		copy[i] = str[i];
-
 	return (copy);
+}
 
